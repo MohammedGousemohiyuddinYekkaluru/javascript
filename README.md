@@ -1,4 +1,5 @@
 # javascript
 code repo for javascript
 <br>
-gouse
+Author - Gouse Mohiyuddin
+
