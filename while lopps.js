@@ -14,4 +14,5 @@ let j = 0;
 do{
     console.log(j);
     j++;
-}while(j <= b); //Even if the condition is wrong it'll executes one time
+}while(j <= b); //Even if the condition is false it'll executes one time.
+//basically first it runs/executes the code one time then, it checks the condition.
