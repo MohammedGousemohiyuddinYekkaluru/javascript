@@ -6,3 +6,12 @@ while(i <= a){
     console.log(i);
     i++;
 }
+
+//d0-while loop
+
+let b = 5;
+let j = 0;
+do{
+    console.log(j);
+    j++;
+}while(j <= b); //Even if the condition is wrong it'll executes one time
