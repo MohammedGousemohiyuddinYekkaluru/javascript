@@ -4,7 +4,6 @@ const hello = () => {
 }
 
 function onePlusAvg(x,y){
-    console.log("Done"); 
     return 1 + (x + y) / 2;
 };
 
