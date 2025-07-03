@@ -39,7 +39,7 @@ console.log(output);
 
 //
 
-let loginUserMessage = (userName) => {
+let loginUserMessage = (userName = "something") => { //we also can give default values
     if(userName){
         return `${userName} just logged in`;
     }else{
@@ -48,5 +48,5 @@ let loginUserMessage = (userName) => {
     }
 }
 
-console.log(loginUserMessage("Gouse"));
+console.log(loginUserMessage("Gouse")); //if this is empty default values are considered
 
