@@ -30,9 +30,23 @@ console.log(result); //undefined due to no value is returned from the function.
 
 let otherExample = (num3, num4) => {
     let result = num3 + num4;
-    let over = "done";
-    return {result, over};
+    console.log("Done");
+    return result;
 }
 
 let output = otherExample(5,6);
 console.log(output);
+
+//
+
+let loginUserMessage = (userName) => {
+    if(userName){
+        return `${userName} just logged in`;
+    }else{
+        console.log("Enter a Username");
+        return;
+    }
+}
+
+console.log(loginUserMessage("Gouse"));
+
