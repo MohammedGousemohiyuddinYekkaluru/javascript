@@ -12,3 +12,15 @@ console.log(naam3.trim()); //"Mohiyuudin"
 
 //strings are immutable
 console.log(naam, naam2, naam3);
+
+//Quick Quiz
+
+let str = "";
+
+for(i=0; i<naam.length; i++){
+    console.log(naam[i]);
+    str += naam[i];
+};
+
+console.log(str);
+
