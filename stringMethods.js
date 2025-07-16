@@ -1,2 +1,4 @@
-let name = "Gouse";
-console.log(name.lenght); //5
+let naam = "Gouse";
+console.log(naam.lenght); //5 //property
+console.log(naam.toUpperCase()); //method 
+console.log(naam.toUpperCase()); //method 
