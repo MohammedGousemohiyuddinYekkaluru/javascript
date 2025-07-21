@@ -8,3 +8,8 @@ console.log(class_marks);
 console.log(`The length of class_marks is ${class_marks.length}`);
 console.log(typeof(class_marks)); //object.
 
+//Quick quiz
+
+for(i=0; i<class_marks.length; i++){
+    console.log(class_marks[i]);
+}
